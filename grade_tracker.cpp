@@ -24,7 +24,7 @@ int main()
     {
         cout << "Enter grade " << i + 1 << ": ";
         cin >> grade;
-        while(grade <= 0 || grade >= 100)
+        while(grade < 0 || grade > 100)
         {
             cout << "Invalid!!" << endl;
             cout << "Enter a valid grade: ";
